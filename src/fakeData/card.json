@@ -1,0 +1,38 @@
+[
+    {
+        "id": "6423faae39ceb6083a0027c6",
+        "authorName": "Mr. John",
+        "authorImage": "https://images.unsplash.com/profile-1626105542798-a66c7f6728a6image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "blogTitle": "How to get your first job as a self-taught programmer",
+        "blogCoverImage": "https://unsplash.com/photos/gEN5Btvf2Eg",
+        "readTime": 5,
+        "publishDate": "Mar 19 2023"
+    },
+    {
+        "id": "6423faae39ceb6083a0027c7",
+        "authorName": "Paul White",
+        "authorImage": "https://images.unsplash.com/profile-1584566982645-74be0a12137eimage?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "blogTitle": "How to get your first job as a self-taught programmer",
+        "blogCoverImage": "https://unsplash.com/photos/qDG7XKJLKbs",
+        "readTime": 10,
+        "publishDate": "Mar 13 2023"
+    },
+    {
+        "id": "6423faae39ceb6083a0027c8",
+        "authorName": "Austin",
+        "authorImage": "https://images.unsplash.com/profile-1589828741950-dc6efa544033image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "blogTitle": "How to get your first job as a self-taught programmer",
+        "blogCoverImage": "https://unsplash.com/photos/6sAl6aQ4OWI",
+        "readTime": 7,
+        "publishDate": "Feb 22 2023"
+    },
+    {
+        "id": "6423faae39ceb6083a0027c9",
+        "authorName": "Priscilla",
+        "authorImage": "https://images.unsplash.com/profile-1667330985130-4009098ae31dimage?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "blogTitle": "How to get your first job as a self-taught programmer",
+        "blogCoverImage": "https://unsplash.com/photos/m_HRfLhgABo",
+        "readTime": 5,
+        "publishDate": "Jan 17 2023"
+    }
+]
