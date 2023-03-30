@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './Component/Header/Header';
+import Card from './Component/Card/Card';
 
-const App = () => {
+const App = (props) => {
   return (
     <div>
-      <h1>Hello</h1>
+      <Header></Header>
+      <Card></Card>
     </div>
   );
 };
