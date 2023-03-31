@@ -6,32 +6,33 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   const [readTime, setReadTime] = useState()
-  const handleReadTime = (time, title) => {
+  const handleReadTime = (time) => {
     const previousReadTime = JSON.parse(localStorage.getItem('readTime'));
-    const previousReadTitle = JSON.stringify(localStorage.getItem('readId'));
-    console.log(previousReadTitle, previousReadTime);
-
     if(previousReadTime){
       const sum = previousReadTime + time;
       localStorage.setItem('readTime', sum)
       setReadTime(sum)
     }else{
       localStorage.setItem('readTime', time);
-      localStorage.setItem('readId', title);
-      setReadTime(time, title)
+      setReadTime(time)
     }
-
   }
 
-  const handleBookmark = () => {
-    toast("Already Bookmarked!");
-  }
 
+  // Bookmark Button 
+  const handleBookmark = ({id}) => {
+      toast("Already Bookmarked!");
+      console.log(id);
+  }
 
   return (
     <div>
       <Header></Header>
-      <Card handleReadTime={handleReadTime} readTime={readTime} handleBookmark={handleBookmark}></Card>
+      <Card 
+      handleReadTime={handleReadTime}
+      readTime={readTime}
+      handleBookmark={handleBookmark}
+       ></Card>
       <ToastContainer></ToastContainer>
     </div>
   );

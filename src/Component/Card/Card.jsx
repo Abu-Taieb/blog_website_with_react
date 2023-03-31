@@ -5,13 +5,13 @@ import Bookmark from "../Bookmark/Bookmark";
 
 const Card = ({handleReadTime, readTime, handleBookmark}) => {
   const [cards, setCard] = useState([]);
-
+  
   useEffect(() => {
     fetch("card.json")
       .then((res) => res.json())
       .then((data) => setCard(data));
   }, []);
-
+  
   return (
     <>
       <div className="card-container">
@@ -20,6 +20,7 @@ const Card = ({handleReadTime, readTime, handleBookmark}) => {
           {cards.map((card) => (
             <SingleCard 
             card={card}
+            key={card.id}
             handleReadTime={handleReadTime}
             handleBookmark={handleBookmark}
             ></SingleCard>

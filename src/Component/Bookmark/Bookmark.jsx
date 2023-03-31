@@ -19,13 +19,13 @@ const Bookmark = ({readTime}) => {
             <h4>Master Microsoft Power Platform and Become an In-Demand!</h4>
         </div>
         <div className="added-bookmark">
-            <h4>Master Microsoft Power Platform and Become an In-Demand!</h4>
+            <h4>How to get your first job as a self-taught programmer</h4>
         </div>
         <div className="added-bookmark">
-            <h4>Master Microsoft Power Platform and Become an In-Demand!</h4>
+            <h4>If you want to be a good programmer then you do practice Everyday</h4>
         </div>
         <div className="added-bookmark">
-            <h4>Master Microsoft Power Platform and Become an In-Demand!</h4>
+            <h4>Now JavaScript is a most powerful & popular Programming Language</h4>
         </div>
       </div>
     </div>
