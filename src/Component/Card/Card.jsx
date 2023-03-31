@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Card.css";
 import SingleCard from "../SingleCard/SingleCard";
+import Bookmark from "../Bookmark/Bookmark";
 
 const Card = () => {
   const [cards, setCard] = useState([]);
@@ -24,7 +25,7 @@ const Card = () => {
 
         {/* Right Section  */}
         <div className="card-right">
-          <h4>Spent time on read : 177 min</h4>
+        <Bookmark></Bookmark>
         </div>
       </div>
     </>
