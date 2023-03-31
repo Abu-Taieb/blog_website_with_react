@@ -3,7 +3,7 @@ import "./Card.css";
 import SingleCard from "../SingleCard/SingleCard";
 import Bookmark from "../Bookmark/Bookmark";
 
-const Card = ({handleReadTime, readTime}) => {
+const Card = ({handleReadTime, readTime, handleBookmark}) => {
   const [cards, setCard] = useState([]);
 
   useEffect(() => {
@@ -19,7 +19,9 @@ const Card = ({handleReadTime, readTime}) => {
         <div className="card-left">
           {cards.map((card) => (
             <SingleCard 
-            card={card} handleReadTime={handleReadTime}
+            card={card}
+            handleReadTime={handleReadTime}
+            handleBookmark={handleBookmark}
             ></SingleCard>
           ))}
         </div>

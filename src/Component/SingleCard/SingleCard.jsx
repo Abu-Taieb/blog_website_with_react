@@ -1,7 +1,8 @@
 import React from "react";
 import "./SingleCard.css";
+import { ToastContainer, toast } from 'react-toastify';
 
-const SingleCard = ({card, handleReadTime}) => {
+const SingleCard = ({card, handleReadTime, handleBookmark}) => {
     const {blogCoverImage, authorImage, authorName, publishDate, readTimes, blogTitle} = card;
   return (
     <div>
@@ -20,9 +21,8 @@ const SingleCard = ({card, handleReadTime}) => {
           </div>
           <div className="bookmark">
             <p className="bookmark-detail">0{readTimes} min read</p>
-            <button>
-              <i className="fa-regular fa-bookmark"></i>
-            </button>
+            {/* Bookmark Button  */}
+            <button onClick={handleBookmark}><i className="fa-regular fa-bookmark"></i></button>
           </div>
         </div>
         <h2>{blogTitle}</h2>

@@ -22,9 +22,6 @@
     height: 50px;
     border-radius: 50%;
 }
-.author-details{
-
-}
 .author-details h4{
     margin: 0 20px;
     padding: 0;
@@ -52,6 +49,12 @@
     color: rgba(17, 17, 17, 0.6);
     border: 0;
     padding: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.bookmark button:hover{
+    color: #6047EC;
+    font-weight:bolder;
 }
 button:focus, button:focus-visible {
     outline: none !important;

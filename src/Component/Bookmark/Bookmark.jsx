@@ -18,6 +18,15 @@ const Bookmark = ({readTime}) => {
         <div className="added-bookmark">
             <h4>Master Microsoft Power Platform and Become an In-Demand!</h4>
         </div>
+        <div className="added-bookmark">
+            <h4>Master Microsoft Power Platform and Become an In-Demand!</h4>
+        </div>
+        <div className="added-bookmark">
+            <h4>Master Microsoft Power Platform and Become an In-Demand!</h4>
+        </div>
+        <div className="added-bookmark">
+            <h4>Master Microsoft Power Platform and Become an In-Demand!</h4>
+        </div>
       </div>
     </div>
   );
