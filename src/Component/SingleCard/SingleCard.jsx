@@ -1,6 +1,5 @@
 import React from "react";
 import "./SingleCard.css";
-import { ToastContainer, toast } from 'react-toastify';
 
 const SingleCard = ({card, handleReadTime, handleBookmark}) => {
     const {blogCoverImage, authorImage, authorName, publishDate, readTimes, blogTitle} = card;

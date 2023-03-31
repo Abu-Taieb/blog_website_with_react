@@ -30,6 +30,27 @@ const Card = ({handleReadTime, readTime, handleBookmark}) => {
         <div className="card-right">
         <Bookmark readTime={readTime}></Bookmark>
         </div>
+        
+        <div className="qa-container">
+        <h4 className="qa-header">4 Question & Answer </h4>
+        <div className="qa-content">
+            <h4>Question 1 : What is the different between Props vs state?</h4>
+            <p>Answer : Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, ipsam.</p>
+        </div>
+        <div className="qa-content">
+            <h4>Question 2 : How does useState work?</h4>
+            <p>Answer : Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, ipsam.</p>
+        </div>
+        <div className="qa-content">
+            <h4>Question 3 : Purpose of useEffect other than fetching data?</h4>
+            <p>Answer : Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, ipsam.</p>
+        </div>
+        <div className="qa-content">
+            <h4>Question 4 : How Does React work?</h4>
+            <p>Answer : Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, ipsam.</p>
+        </div>
+      </div>
+
       </div>
     </>
   );
