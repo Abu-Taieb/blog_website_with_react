@@ -92,6 +92,10 @@ hr{
 }
 .qa-content h4{
     font-size: 20px;
+    margin: 0;
+}
+.qa-content p{
+    text-align: justify;
 }
 .qa-content{
     background: #fff;
