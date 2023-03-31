@@ -13,8 +13,8 @@
         "authorName": "Paul White",
         "authorImage": "https://images.unsplash.com/profile-1584566982645-74be0a12137eimage?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
         "blogTitle": "How to get your first job as a self-taught programmer",
-        "blogCoverImage": "https://unsplash.com/photos/qDG7XKJLKbs",
-        "readTime": 10,
+        "blogCoverImage": "https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1478&q=80",
+        "readTime": 9,
         "publishDate": "Mar 13 2023"
     },
     {
@@ -32,7 +32,7 @@
         "authorImage": "https://images.unsplash.com/profile-1667330985130-4009098ae31dimage?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
         "blogTitle": "How to get your first job as a self-taught programmer",
         "blogCoverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
-        "readTime": 5,
+        "readTime": 6,
         "publishDate": "Jan 17 2023"
     }
 ]

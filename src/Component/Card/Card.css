@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap');
+
 
 .card-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 20px;
 }
-.card-left{
-    border: 1px solid salmon;
+.card{
+    padding: 20px;
 }
 .cover-img{
     border-radius: 5px;
@@ -61,7 +64,6 @@ button:focus, button:focus-visible {
 .keyword span{
     margin-right: 15px;
     color:rgba(17, 17, 17, 0.6);
-    
 }
 .read-more-btn{
     color:#6047EC;
@@ -69,6 +71,12 @@ button:focus, button:focus-visible {
     cursor: pointer;
     padding: 10px 0;
 }
+
+hr{
+    border: 1px solid rgba(17, 17, 17, 0.15);
+    margin: 30px 0;
+}
+
 .card-right{
-    border: 1px solid green;
+
 }
