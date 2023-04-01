@@ -21,7 +21,7 @@ const SingleCard = ({card, handleReadTime, handleBookmark}) => {
           <div className="bookmark">
             <p className="bookmark-detail">0{readTimes} min read</p>
             {/* Bookmark Button  */}
-            <button onClick={() => handleBookmark({id})}><i className="fa-regular fa-bookmark"></i></button>
+            <button onClick={() => handleBookmark(id)}><i className="fa-regular fa-bookmark"></i></button>
           </div>
         </div>
         <h2>{blogTitle}</h2>

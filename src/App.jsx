@@ -5,7 +5,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
-  const [readTime, setReadTime] = useState()
+  const [readTime, setReadTime] = useState([]);
+  const [cart, setCart] = useState([])
   const handleReadTime = (time) => {
     const previousReadTime = JSON.parse(localStorage.getItem('readTime'));
     if(previousReadTime){
@@ -18,11 +19,11 @@ const App = () => {
     }
   }
 
-
   // Bookmark Button 
-  const handleBookmark = ({id}) => {
+  const handleBookmark = (id) => {
       toast("Already Bookmarked!");
-      console.log(id);
+      const newCart = [...cart, id];
+      setCart(newCart)
   }
 
   return (
